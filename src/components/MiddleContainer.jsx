@@ -1,6 +1,6 @@
 import React from 'react'
 import Main from './Main';
-import SideBar from './Sidebar';
+import SideBar from './SideBar.jsx';
 
 const MiddleContainer = () => {
   return (
