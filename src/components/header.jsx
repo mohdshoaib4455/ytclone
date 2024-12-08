@@ -81,18 +81,18 @@ const Header = () => {
               </button>
             </div>
 
-            <div className="d-flex align-items-center">
+            <div className="d-flex align-items-center ">
               <button className="SearchIconMobile d-lg-none" onClick={OpneFun}>
                 {DarkMode ? (
-                  <IoIosSearch size={30} className="text-dark" />
+                  <IoIosSearch size={25} className="text-dark" />
                 ) : (
-                  <IoIosSearch size={30} className="text-white" />
+                  <IoIosSearch size={25} className="text-white" />
                 )}
               </button>
               <button
                 type="button"
                 onClick={HndlDarkMode}
-                className="btn btn-white d-flex  justify-content-center  me-2"
+                className="btn btn-white d-flex  justify-content-center  "
               >
                 {DarkMode ? (
                   <FaMoon size={25} />
@@ -100,14 +100,14 @@ const Header = () => {
                   <FaSun size={25} className="text-white" />
                 )}
               </button>
-              <button className="btn btn-white me-2">
+              <button className="btn btn-white ">
                 {DarkMode ? (
                   <FaVideo size={25} />
                 ) : (
                   <FaVideo className="text-white" size={25} />
                 )}
               </button>
-              <button className="btn btn-white me-2">
+              <button className="btn btn-white ">
                 {DarkMode ? (
                   <FaBell size={25} />
                 ) : (
@@ -116,7 +116,7 @@ const Header = () => {
               </button>
               <img
                 src="https://yt3.ggpht.com/yti/ANjgQV8EkVB8l0yZyCkLxrVWXq5qvgRGbr9IJqfpy6-BEmd56r0=s88-c-k-c0x00ffffff-no-rj"
-                className="rounded-circle"
+                className="rounded-circle d-none d-sm-block"
                 alt="User Avatar"
                 height="40"
               />
