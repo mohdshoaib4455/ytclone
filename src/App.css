@@ -1,0 +1,100 @@
+input::placeholder {
+    color: black;
+}
+
+.card {
+    border: none !important;
+}
+
+.SearchIn {
+    padding: 0px 30px !important;
+    height: 40px !important;
+    border-radius: 25px 0px 0px 25px !important;
+    border-left: 1px solid rgba(2, 1, 1, 0.418) !important;
+    border-top: 1px solid rgba(2, 1, 1, 0.418) !important;
+    border-bottom: 1px solid rgba(2, 1, 1, 0.418) !important;
+    border-right: none;
+    background-color: white;
+}
+
+.S-btn {
+    width: 75px;
+    border: 1px solid rgba(2, 1, 1, 0.418);
+    border-radius: 0px 25px 25px 0px;
+    background-color: white;
+    height: 40px !important;
+    border: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+    ;
+}
+
+.ToggleIcon {
+    cursor: pointer;
+}
+
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h5 {
+    font-size: 18px !important;
+    margin-left: 20px !important;
+}
+
+/* Playig Video */
+.PlayVideo {
+    height: 80vh !important;
+}
+
+.playingVideoHeading {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.SearchIconMobile {
+    /* background-color: white; */
+    background: none;
+    border: none;
+    color: black;
+
+}
+
+/*  */
+
+.MobileSeacrhBar {
+
+    position: absolute !important;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.204);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 0px;
+}
+
+.Arrow {
+    cursor: pointer;
+}
+
+.SidebarToggle {
+    z-index: 22;
+    width: 260px;
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    position: absolute !important;
+    left: 0;
+    top: 0;
+
+}
