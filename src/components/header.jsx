@@ -7,9 +7,9 @@ import { FaMoon } from "react-icons/fa";
 import { IoIosMenu } from "react-icons/io";
 import { FaSun } from "react-icons/fa";
 import { FaMicrophone } from "react-icons/fa";
-import logo from "../assets/1.png";
+import logo from "../images/1.png";
 import { FaArrowLeft } from "react-icons/fa";
-import logo2 from "../assets/2.png";
+import logo2 from "../images/2.png";
 import { AppContext } from "../store/store";
 import { Link, useNavigate } from "react-router-dom";
 
